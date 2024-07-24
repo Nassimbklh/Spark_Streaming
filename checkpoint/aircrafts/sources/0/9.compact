@@ -1,0 +1,11 @@
+v1
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_1.csv","timestamp":1721485619651,"batchId":0}
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_2.csv","timestamp":1721485619659,"batchId":1}
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_3.csv","timestamp":1721485619667,"batchId":2}
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_4.csv","timestamp":1721485619676,"batchId":3}
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_5.csv","timestamp":1721485619683,"batchId":4}
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_6.csv","timestamp":1721485619691,"batchId":5}
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_7.csv","timestamp":1721485619699,"batchId":6}
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_8.csv","timestamp":1721485619706,"batchId":7}
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_9.csv","timestamp":1721485619713,"batchId":8}
+{"path":"file:///Users/nassim/Documents/SaveProject/Spark_Streaming/data/vole_10.csv","timestamp":1721485619721,"batchId":9}

@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.1 (Amazon.com Inc. Java 11.0.23)
+[debug] Load.defaultLoad until apply took 94.904083ms
+[debug]           Load.loadUnit: plugins took 73.959291ms
+[debug]           Load.loadUnit: defsScala took 0.188084ms
+[debug] [Loading] Scanning directory /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 12.527375 ms
+[debug]               Load.resolveProject(untitled-build) took 58.223458ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id untitled-build, base: /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled/project, plugins: List(<none>))) took 99.944458ms
+[debug] [Loading] Done in /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled/project, returning: (untitled-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 114.989916ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.180875ms
+[debug]         Load.loadUnit(file:/Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled/project/, ...) took 193.357208ms
+[debug]       Load.apply: load took 575.493792ms
+[debug]       Load.apply: resolveProjects took 3.468958ms
+[debug]       Load.apply: finalTransforms took 37.944667ms
+[debug]       Load.apply: config.delegates took 3.819625ms
+[debug]       Load.apply: Def.make(settings)... took 261.676791ms
+[debug]       Load.apply: structureIndex took 51.584625ms
+[debug]       Load.apply: mkStreams took 0.942625ms
+[info] loading project definition from /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1613.5245ms
+[debug]     Load.loadUnit: defsScala took 0.002542ms
+[debug] [Loading] Scanning directory /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled
+[debug]       Load.loadUnit: mkEval took 6.128ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.81475 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.631125ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled, plugins: List(<none>))) took 5.41275ms
+[debug] [Loading] Done in /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1972.925292ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.510875ms
+[debug]   Load.loadUnit(file:/Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled/, ...) took 3595.98725ms
+[debug] Load.apply: load took 3609.097875ms
+[debug] Load.apply: resolveProjects took 0.100584ms
+[debug] Load.apply: finalTransforms took 17.533333ms
+[debug] Load.apply: config.delegates took 0.360041ms
+[debug] Load.apply: Def.make(settings)... took 76.082458ms
+[debug] Load.apply: structureIndex took 20.962834ms
+[debug] Load.apply: mkStreams took 0.002084ms
+[info] set current project to untitled (in build file:/Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark_Streaming/untitled/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/thomas/.sbt/1.0/server/b73031e49366826b2b4c/sock
+[debug] Writing bsp connection file
+[info] started sbt server
